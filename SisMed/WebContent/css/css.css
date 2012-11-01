@@ -1,0 +1,204 @@
+@CHARSET "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: arial, sans-serif;
+}
+
+body {
+	background: #d9d9d9 url(../images/bg_admin.jpg) center center no-repeat;
+}
+
+.alinhar_meio {
+	width: 980px;
+	margin: 0 auto;
+}
+
+#topo {
+	width: 980px;
+	height: 100px;
+	border-bottom: 3px solid #1b3280;
+	padding-bottom: 4px;
+}
+
+.logo {
+	font-size: 35px;
+	color: black;
+	text-decoration: none;
+	float: left;
+	margin-top: 65px;
+}
+
+#topo .sair {
+	font-size: 16px;
+	color: black;
+	float: right;
+	margin-top: 85px;
+}
+
+#menu {
+	width: 200px;
+	height: auto;
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+}
+
+#menu a {
+	width: 200px;
+	height: 17px;
+	font-size: 17px;
+	display: block;
+	text-decoration: none;
+	margin-bottom: 4px;
+}
+
+#conteudo {
+	padding: 20px;
+	margin-top: 10px;
+	width: 737px;
+	min-height: 300px;
+	float: left;
+	border-left: 3px solid #1b3280;
+	margin-bottom: 20px;
+}
+
+#login {
+	width: 220px;
+	padding: 20px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+#login table {
+	clear: both;
+	border: 1px solid gray;
+	padding: 20px;
+}
+
+.crud_text {
+	font-size: 14px;
+	font-weight: bold;
+	text-align: right;
+}
+
+.crud_table {
+	line-height: 2;
+}
+
+.crud_table input {
+	height: 18px;
+}
+
+.list_table {
+	width: 730px;
+}
+
+.list_table td {
+	font-size: 12px;
+	padding: 4px;
+	border: 1px solid gray;
+}
+
+#menu span {
+	font-size: 12px;
+	margin-bottom: 15px;
+	display: block;
+}
+
+.add_bt {
+	width: 200px;
+	font-size: 14px;
+	font-weight: bold;
+	color: blue;
+	padding-left: 20px;
+	background: url(../images/add_bt.png) no-repeat left top;
+	display: block;
+}
+
+.back_bt {
+	width: 200px;
+	font-size: 14px;
+	font-weight: bold;
+	color: blue;
+	padding-left: 20px;
+	background: url(../images/back_bt.png) no-repeat left top;
+	display: block;
+}
+
+.edit_bt {
+	height: 20px;
+	font-size: 12px;
+	font-weight: bold;
+	color: blue;
+	padding-left: 20px;
+	padding-top: 1px;
+	padding-bottom: 2px;
+	background: url(../images/edit_bt.png) no-repeat;
+}
+
+.remove_bt {
+	height: 20px;
+	font-size: 12px;
+	font-weight: bold;
+	color: blue;
+	padding-left: 20px;
+	padding-top: 1px;
+	padding-bottom: 2px;
+	background: url(../images/remove_bt.png) no-repeat;
+}
+
+.consulta_bt {
+	height: 20px;
+	font-size: 12px;
+	font-weight: bold;
+	color: blue;
+	padding-left: 20px;
+	padding-top: 1px;
+	padding-bottom: 2px;
+	background: url(../images/add_bt.png) no-repeat;
+}
+
+.search_bt {
+	display: block;
+	margin-top: 5px;
+	width: 200px;
+	height: 20px;
+	font-size: 14px;
+	font-weight: bold;
+	color: blue;
+	padding-left: 20px;
+	padding-top: 1px;
+	padding-bottom: 2px;
+	background: url(../images/search_bt.png) no-repeat;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.add_bt:hover, .edit_bt:hover, remove_bt:hover, .search_bt:hover {
+	color: black;
+}
+
+.msg_green, .msg_red {
+	font-size: 12px;
+	margin-left: 2px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	display: block;
+}
+
+.msg_green {
+	color: green;
+}
+
+.msg_red {
+	color: red;
+}
+
+label.error { width: 15em; float: left;}
+label.error { float: none; color: red; padding-left: .5em; vertical-align: top; font-size: 12px;}
+p { clear: both; }
+.submit { margin-left: 12em; }
+em { font-weight: bold; padding-right: 1em; vertical-align: top; }
